@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>TextFile.cs</name>
+  <category>code</category>
+  <child>null</child>
+  <description>check file pattern</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>text files</keyword>
+  <size>1259</size>
+  <time-date>10/7/2013 6:26:21 PM</time-date>
+</xmlfile>

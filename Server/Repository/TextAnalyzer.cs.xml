@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>TextAnalyzer.cs</name>
+  <category>code</category>
+  <child>XmlQuery.cs</child>
+  <child>TextQuery.cs</child>
+  <child>MetadataTool.cs</child>
+  <description>text analyzer main function</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>main function</keyword>
+  <keyword>text analyzer</keyword>
+  <size>1182</size>
+  <time-date>10/7/2013 6:26:22 PM</time-date>
+</xmlfile>

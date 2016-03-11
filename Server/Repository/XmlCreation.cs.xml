@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>XmlCreation.cs</name>
+  <category>code</category>
+  <child>null</child>
+  <description>create new xml files</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>xml files</keyword>
+  <keyword>creation</keyword>
+  <size>3775</size>
+  <time-date>11/20/2013 1:17:08 AM</time-date>
+</xmlfile>

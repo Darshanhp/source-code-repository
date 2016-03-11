@@ -1,0 +1,35 @@
+﻿<Window x:Class="DocumentVault.Upload"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Upload" Height="573" Width="622">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="373" Margin="19,76,0,0" VerticalAlignment="Top" Width="572" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <TextBox x:Name="xml_view" Height="220" Canvas.Left="328" TextWrapping="Wrap" Canvas.Top="55" Width="216" Background="#FFDDF4FD" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" />
+            <TextBlock Canvas.Left="10" TextWrapping="Wrap" Text="Metadata Editor" FontFamily="{DynamicResource {x:Static SystemFonts.MenuFontFamilyKey}}" FontSize="16" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="multiple choices" VerticalAlignment="Top" Width="96" Height="26" Canvas.Left="36" Canvas.Top="230" FontStyle="Italic"/>
+            <TextBlock x:Name="targetxml" Canvas.Left="183" TextWrapping="Wrap" Canvas.Top="5" Width="361"/>
+        </Canvas>
+        <Button x:Name="Browse" Content="Browse" HorizontalAlignment="Left" Margin="474,29,0,0" VerticalAlignment="Top" Width="75" Click="Browse_Click"/>
+        <TextBox x:Name="full_file_name" HorizontalAlignment="Left" Height="23" Margin="32,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427"/>
+        <Button x:Name="upload_file" Content="Upload" HorizontalAlignment="Left" Margin="496,468,0,0" VerticalAlignment="Top" Width="95" Click="upload_file_Click" Height="28"/>
+        <ComboBox x:Name="Upload_Cate" HorizontalAlignment="Left" Margin="163,226,0,0" VerticalAlignment="Top" Width="166" SelectionChanged="Upload_Cate_SelectionChanged"/>
+        <ComboBox x:Name="Upload_Child" HorizontalAlignment="Left" Margin="163,281,0,0" VerticalAlignment="Top" Width="166" SelectionChanged="Upload_Child_SelectionChanged"/>
+        <TextBox x:Name="Description" HorizontalAlignment="Left" Height="23" Margin="163,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="Dependency" HorizontalAlignment="Left" Height="23" Margin="163,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="Keyword" HorizontalAlignment="Left" Height="23" Margin="163,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="Categories" HorizontalAlignment="Left" Height="23" Margin="163,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="Children" HorizontalAlignment="Left" Height="47" Margin="163,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" VerticalScrollBarVisibility="Visible"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,170,0,0" TextWrapping="Wrap" Text="Denpendencies :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,142,0,0" TextWrapping="Wrap" Text="Description text :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,198,0,0" TextWrapping="Wrap" Text="Keywords :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,226,0,0" TextWrapping="Wrap" Text="Choose categories :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,285,0,0" TextWrapping="Wrap" Text="Choose children :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,114,0,0" TextWrapping="Wrap" Text="Metadata name :" VerticalAlignment="Top" Width="115" Height="23"/>
+        <TextBlock x:Name="Metadata_name" HorizontalAlignment="Left" Margin="163,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="353,112,0,0" TextWrapping="Wrap" Text="XML view" VerticalAlignment="Top" Width="166" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Height="72" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"><Run Text="You can choose categories and children files already in server or append new in the black."/><LineBreak/><Run Text="Note : use space to separate."/></TextBlock>
+        <Button x:Name="Create" Content="Create Metadata" HorizontalAlignment="Left" Margin="448,389,0,0" VerticalAlignment="Top" Width="101" Height="29" Click="Create_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,247,0,0" TextWrapping="Wrap" Text="multiple choices" VerticalAlignment="Top" Width="104" Height="29" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>TextQuery.cs</name>
+  <category>code</category>
+  <child>TextFile.cs</child>
+  <description>search text files</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>text files</keyword>
+  <keyword>search for strings</keyword>
+  <size>5833</size>
+  <time-date>10/7/2013 7:04:05 PM</time-date>
+</xmlfile>

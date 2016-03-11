@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>XmlQuery.cs</name>
+  <category>code</category>
+  <child>LinqToXml.cs</child>
+  <description>xml query</description>
+  <description>linq</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>associate</keyword>
+  <size>5202</size>
+  <time-date>10/7/2013 6:56:51 PM</time-date>
+</xmlfile>

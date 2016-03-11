@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xmlfile>
+  <name>TextAnalyzer.csproj</name>
+  <category>project</category>
+  <child>TextAnalyzer.cs</child>
+  <description>text analyzer project</description>
+  <dependency>System.IO</dependency>
+  <dependency>System.Xml.Linq</dependency>
+  <keyword>project</keyword>
+  <size>2975</size>
+  <time-date>10/7/2013 6:45:35 PM</time-date>
+</xmlfile>
